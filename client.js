@@ -30,12 +30,11 @@ console.log(total)
  * 4. Output the array and number of times teal was found
  */
 let Colors = ['blue', 'teal', 'green', 'white'];
-let tealCount 
-for (let i =0; i < Colors.length; i++){
-     console.log(i, Colors[i]);
+let tealCount;
+for (let tealCount = 0; tealCount < Colors.length; tealCount++){
+     console.log(Colors);
 }
-
-console.log(tealCount);
+ 
 
 
 
@@ -53,11 +52,21 @@ console.log(tealCount);
  *    array and even numbers in the evenNumbers array.
  * 4. Output the original array, odd number array and even number array
  */
-let numbers = [3, 7, 2, 8, 11, 4, 2];
-let oddNumbers: [];
-let evenNumbers = [];
 
+let numbers = [4, 5, 9, 8, 6];
+let evenNumbers = [];
+let oddNumbers = [];
+
+for (let i = 0; i < numbers.length; i++){
+     if (numbers % 2 === 0){
+          console.log(evenNumbers);
+}
+else {
+     console.log(oddNumbers);
+}
 console.log(numbers);
+}
+
 
 // Example output
 // 3, 7, 2, 8, 11, 4, 2
@@ -73,7 +82,20 @@ console.log(numbers);
  * 3. Write a loop that adds the opposite value to the toggled array
  * 4. Output both arrays
  */
+let chelsea = [true, false, true, false];
+let toggled = [];
 
+for (let him of chelsea){
+     if (chelsea === true){
+          toggled.push(false);
+     }
+}
+else {
+     toggled.push(true);
+}     
+
+console.log(chelsea);
+console.log(toggled);
 
 // Example output
 // true, false, true, true
